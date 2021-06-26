@@ -106,14 +106,14 @@
         margin-right: 8px;
     }
 
-    &:hover{
+    &:hover {
         -webkit-transform: scale(1.5);
         transform: scale(1.1);
         filter: brightness(0.9);
     }
 }
 
-.separator{
+.separator {
     font-size:14px;
     color: #a8a8b3;
 
@@ -121,7 +121,7 @@
     display:flex;
     align-items:center;
 
-    &::before{
+    &::before {
         content: '';
         flex: 1;
         height: 1px;
@@ -129,7 +129,7 @@
         margin-right: 16px;
     }
 
-    &::after{
+    &::after {
         content: '';
         flex: 1;
         height: 1px;
